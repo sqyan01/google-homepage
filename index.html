@@ -2,43 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="left">
-                <a href="#">About</a>
-                <a href="#">Store</a>
-            </div>
-            <div class="right">
-                <a href="#">Gmail</a>
-                <a href="#">Images</a>
-            </div>
+            <ul class="left">
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#" class="store">Store</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="#" class="gmail">Gmail</a></li>
+                <li><a href="#" class="images">Images</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <img src="googlelogo.png" alt="Google Logo">
+        <div class="logo">
+            <img src="googlelogo.png" alt="Google Logo">
+        </div>
         <form>
-            <input type="text">
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
+            <div class="search-box">
+                <input type="text" class="input">
+            </div>
+            <div class="submit-box">
+                <input type="submit" value="Google Search" class="boxes">
+                <input type="submit" value="I'm Feeling Lucky" class="boxes">
+            </div>
         </form>
     </main>
     <footer>
         <nav>
-            <div class="left">
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">How Search works</a>
-            </div>
-            <div class="right">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
-            </div>
+            <ul class="left2">
+                <li><a href="#" class="advertising">Advertising</a></li>
+                <li><a href="#" class="business">Business</a></li>
+                <li><a href="#" class="howsearchworks">How Search works</a></li>
+            </ul>
+            <ul class="right2">
+                <li><a href="#" class="privacy">Privacy</a></li>
+                <li><a href="#" class="terms">Terms</a></li>
+                <li><a href="#" class="settings">Settings</a></li>
+            </ul>
         </nav>
     </footer>
 </body>

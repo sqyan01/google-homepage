@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.gmail{
+    padding: 15px;
+}
+
+.left2 {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px;
+
+}
+
+.business {
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: 198px auto 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;

@@ -1,3 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
 a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
+
+.left {
+    position: absolute;
+    display: flex;
+    margin-left: 20px;
+}
+
+.store {
+    padding: 10px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.gmail{
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+
+}
+
+.search-box {
+    display: flex;
+    width: 450px;
+    height: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 24px;
+    border: 1px solid #dfe1ef  
+}
+
+.input {
+    width: 420px;
+    border-color: transparent;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.submit-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.boxes {
+    color: #5F6368;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    margin: 5px 5px;
+    height: 36px;
+    min-width: 55px;
+    padding: 11px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 45px;
+    line-height: 5px;
+}
+
+footer > nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left2 {
+    display: flex;
+    margin: 20px;
+}
+
+.business {
+    padding: 15px;
+}
+
+.right2 {
+    display: flex;
+    margin: 20px;
+}
+
+.terms {
+    padding: 15px;
 }
